@@ -1,0 +1,19 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "author": "rtsekov",
+  "devDependencies": {
+    "lerna": "^6.5.1",
+    "typescript": "^5.0.2"
+  }
+}
